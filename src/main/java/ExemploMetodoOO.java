@@ -6,14 +6,14 @@ public class ExemploMetodoOO {
 
         ferrari.setOcupantes(2);
 
-        System.out.println("Quantidade de ocupantes na Ferrari: " + ferrari.getOcupantes());
+        System.out.println("Quantidade inicial de ocupantes na Ferrari: " + ferrari.getOcupantes());
 
         ferrari.tiraCasaco(1);
 
-        System.out.println("Quantidade atualizada de ocupantes: " + ferrari.getOcupantes());
+        System.out.println("Quantidade após remover ocupantes: " + ferrari.getOcupantes());
 
         ferrari.colocaCasaco(3);
 
-        System.out.println("Nova quantidade de ocupantes: " + ferrari.getOcupantes());
+        System.out.println("Quantidade após adicionar ocupantes: " + ferrari.getOcupantes());
     }
 }
